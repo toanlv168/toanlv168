@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <p class="header__group-phone">
+                    <i class="fas fa-phone-alt header__phone-icon"></i>
+                    <a href="tel:0896650168" class="header__phone-number">0896650168</a>
+                    <i class="fas fa-search header__phone-seach"></i>
+                </p>
+            </div>
+
+            <div class="grid wide">
+                <nav class="navbar">
+                    <a href="#" class="navbar_logo-link">
+                        <img src="./assets/img/logo.svg" alt="Logo" class="navbar_logo-img">
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item item__hover active line">
+                            <a class="navbar__link" href="">Home</a>
+                        </li>
+                        <li class="navbar__item item__hover line">
+                            <a class="navbar__link" href="">What's on</a>
+                        </li>
+                        <li class="navbar__item item__hover line">
+                            <a class="navbar__link" href="">Shortcodes</a>
+                        </li>
+                        <li class="navbar__item item__hover line">
+                            <a class="navbar__link" href="">News</a>
+                        </li>
+                        <li class="navbar__item item__hover line">
+                            <a class="navbar__link" href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Navbar Mobile -->
+                <div class="nav__bars-icon" id="nav__bars-menu">
+                    <i class="fas fa-bars nav__mobile-icon"></i>
+                </div>
+                <ul id="nav__mobile" class="navbar__mobile-list">
+                    <li class="navbar__mobile-item navbar__mobile-item-active line">
+                        <a class="navbar__mobile-link" href="">Home</a>
+                    </li>
+                    <li class="navbar__mobile-item line">
+                        <a class="navbar__mobile-link" href="">What's on</a>
+                    </li>
+                    <li class="navbar__mobile-item line">
+                        <a class="navbar__mobile-link" href="">Shortcodes</a>
+                    </li>
+                    <li class="navbar__mobile-item line">
+                        <a class="navbar__mobile-link" href="">News</a>
+                        <ul class="navbar__menu">
+                            <li class="navbar__menu-item">
+                                <a class="navbar__menu-link" href="">News single</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__mobile-item line">
+                        <a class="navbar__mobile-link" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Slider -->
+        <div class="slider ">
+            <div class="slider__overlay"></div>
+            <div class=" grid wide slider__caption">
+                <div class="slider__group">
+                    <span class="slider__title">Action, Adventure, Fantasy</span>
+                    <h1 class="slider__heading">End of the World: Part I</h1>
+                    <p class="slider__sub-heading">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
+                    <div class="slider__item">
+                        <span class="slider__item-quality">15</span>
+                        <button class="btn__trailer">
+                            <div class="btn__trailer-ovelay"></div>
+                            <div>
+                                <i class="fas fa-play btn__trailer-icon"></i>
+                                <span class="btn__trailer-text">Play trailer</span> 
+                            </div>
+                        </button>
+                    </div>
+                    <div class="dots">
+                        <ol class="dots__list">
+                            <li class="dots__item dots__item-active"></li>
+                            <li class="dots__item"></li>
+                            <li class="dots__item"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="alternate">
+                <img src="/assets/img/scroll-arrow.svg" alt="">
+            </div>
+        </div>
+        <!-- End Slider -->
+        <!-- New In -->
+        <div class="new">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12">
+                        <h3 class="heading line ">New In</h3>
+                    </div>
+                </div>
+                <div class="new__in-ground">
+                    <i class="fas fa-chevron-left btn__icon-prew "></i>
+
+                    <div class="row">
+                        <div class="col l-3 m-3 c-6 ">
+
+                            <div class="movie__group">
+                                <img src="./assets/img/movie-1.jpg" alt="" class="movie__poster">
+
+                                <div class="movie__content">
+                                    <a href="">
+                                        <i class="fas fa-play movie__play-icon"></i>
+                                    </a>
+                                    <a class="movie__read-more" href="">
+                                        Read more
+                                    </a>
+                                    <span class="movie__date">Released: 7 Nov, 2021</span>
+                                </div>
+                            </div>
+                            <h3 class="movie__name">The last post</h3>
+                            <div class="movie__rating">
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-6 ">
+                            <div class="movie__group">
+                                <img src="./assets/img/movie-2.jpg" alt="" class="movie__poster">
+
+                                <div class="movie__content">
+                                    <a href="">
+                                        <i class="fas fa-play movie__play-icon"></i>
+                                    </a>
+                                    <a class="movie__read-more" href="">
+                                        Read more
+                                    </a>
+                                    <span class="movie__date">Released: 7 Nov, 2021</span>
+                                </div>
+                            </div>
+                            <h3 class="movie__name">Dark and lonely</h3>
+                            <div class="movie__rating">
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon movie__ratin-icon-disabled"></i>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-6 ">
+                            <div class="movie__group">
+                                <img src="./assets/img/movie-3.jpg" alt="" class="movie__poster">
+
+                                <div class="movie__content">
+                                    <a href="">
+                                        <i class="fas fa-play movie__play-icon"></i>
+                                    </a>
+                                    <a class="movie__read-more" href="">
+                                        Read more
+                                    </a>
+                                    <span class="movie__date">Released: 7 Nov, 2021</span>
+                                </div>
+                            </div>
+                            <h3 class="movie__name">Venture</h3>
+                            <div class="movie__rating">
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-6 ">
+                            <div class="movie__group">
+                                <img src="./assets/img/movie-4.jpg" alt="" class="movie__poster">
+
+                                <div class="movie__content">
+                                    <a href="">
+                                        <i class="fas fa-play movie__play-icon"></i>
+                                    </a>
+                                    <a class="movie__read-more" href="">
+                                        Read more
+                                    </a>
+                                    <span class="movie__date">Released: 7 Dec 2021</span>
+                                </div>
+                            </div>
+                            <h3 class="movie__name">Hush</h3>
+                            <div class="movie__rating">
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon"></i>
+                                <i class="fas fa-star movie__ratin-icon movie__ratin-icon-disabled"></i>
+                                <i class="fas fa-star movie__ratin-icon movie__ratin-icon-disabled"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right btn__icon-next "></i>
+                </div>
+            </div>
+        </div>
+        <!-- End New In -->
+        <!-- Show -->
+        <div class="screening__time">
+            <div class="grid wide">
+                <ul class="screening__time-list">
+                    <li class="screening__time-item item__hover active line">
+                        <a class="screening__time-link" href="">Mon</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Tue</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Wed</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Thus</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Fri</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Sat</a>
+                    </li>
+                    <li class="screening__time-item item__hover line">
+                        <a class="screening__time-link" href="">Sun</a>
+                    </li>
+                </ul>
+                <div class="row movie__tab">
+                    <div class="col l-2 m-3 c-12">
+                        <img src="./assets/img/movie-6.jpg" alt="" class="movie__tab-img">
+                    </div>
+                    <div class="col l-10 m-9 c-12 movie__list">
+                        <span class="movie__tab-title">ACTION, ADVENTURE, FANTASY</span>
+                        <h3 class="movie__tab-name">It's over</h3>
+                        <p class="movie__tab-sub">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                        <a class="movie__tab-link" href="">FULL SYNOPSIS
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="row running">
+                            <div class="col l-8 m-10">
+                                <i class="far fa-clock viewing__times-icon"></i>
+                                <span class="viewing__times"> VIEWING TIMES</span>
+                                <button class="btn__viewing-times times-out ">14:45</button>
+                                <button class="btn__viewing-times">18:30</button>
+                                <button class="btn__viewing-times">20:30</button>
+                                <button class="btn__viewing-times">24:45</button>
+                            </div>
+                            <div class="col l-4 m-2 running__time">
+                                <span class="time__limit">105 mins</span>
+                                <span class="circle">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row movie__tab">
+                    <div class="col l-2 m-3 c-12">
+                        <img src="./assets/img/movie-7.jpg" alt="" class="movie__tab-img">
+                    </div>
+                    <div class="col l-10 m-9 c-12 movie__list">
+                        <span class="movie__tab-title">DRAMA</span>
+                        <h3 class="movie__tab-name">Daylight</h3>
+                        <p class="movie__tab-sub">A chronicle of the childhood, adolescence and burgeoning adulthood of a young black man growing up in a rough neighborhood of Miami</p>
+                        <a class="movie__tab-link" href="">FULL SYNOPSIS
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="row running">
+                            <div class="col l-8 m-10">
+                                <i class="far fa-clock viewing__times-icon"></i>
+                                <span class="viewing__times"> VIEWING TIMES</span>
+                                <button class="btn__viewing-times times-out ">14:45</button>
+                                <button class="btn__viewing-times times-out ">18:30</button>
+                                <button class="btn__viewing-times">20:30</button>
+                                <button class="btn__viewing-times">24:45</button>
+                            </div>
+                            <div class="col l-4 m-2 running__time">
+                                <span class="time__limit">117 mins</span>
+                                <span class="circle">U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row movie__tab">
+                    <div class="col l-2 m-3 c-12">
+                        <img src="./assets/img/movie-5.jpg" alt="" class="movie__tab-img">
+                    </div>
+                    <div class="col l-10 m-9 c-12 movie__list">
+                        <span class="movie__tab-title">ACTION, ADVENTURE, SCI-FI</span>
+                        <h3 class="movie__tab-name">Captain America: The First Avenger</h3>
+                        <p class="movie__tab-sub">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
+                        <a class="movie__tab-link" href="">FULL SYNOPSIS
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="row running">
+                            <div class="col l-8 m-10">
+                                <i class="far fa-clock viewing__times-icon"></i>
+                                <span class="viewing__times"> VIEWING TIMES</span>
+                                <button class="btn__viewing-times times-out ">11:00</button>
+                                <button class="btn__viewing-times">18:30</button>
+                                <button class="btn__viewing-times">20:30</button>
+                                <button class="btn__viewing-times">21:00</button>
+                            </div>
+                            <div class="col l-4 m-2 running__time">
+                                <span class="time__limit">120 mins</span>
+                                <span class="circle">PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row movie__tab">
+                    <div class="col l-2 m-3 c-12">
+                        <img src="./assets/img/movie-13.jpg" alt="" class="movie__tab-img">
+                    </div>
+                    <div class="col l-10 m-9 c-12 movie__list">
+                        <span class="movie__tab-title">DRAMA</span>
+                        <h3 class="movie__tab-name">Fences</h3>
+                        <p class="movie__tab-sub">A working-class African-American father tries to raise his family in the 1950s, while coming to terms with the events of his life.</p>
+                        <a class="movie__tab-link" href="">FULL SYNOPSIS
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="row running">
+                            <div class="col l-8 m-10">
+                                <i class="far fa-clock viewing__times-icon"></i>
+                                <span class="viewing__times"> VIEWING TIMES</span>
+                                <button class="btn__viewing-times times-out ">14:45</button>
+                                <button class="btn__viewing-times">18:30</button>
+                                <button class="btn__viewing-times">20:30</button>
+                                <button class="btn__viewing-times times-out">24:45</button>
+                            </div>
+                            <div class="col l-4 m-2 running__time">
+                                <span class="time__limit">105 mins</span>
+                                <span class="circle">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Coming Soon -->
+
+        <div class="coming">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12">
+                        <h3 class="heading line coming__soon-h3">Coming Soon</h3>
+                    </div>
+                </div>
+                <div class="row coming__soon-group">
+                    <div class="col l-5 m-6 c-12">
+                        <span class="coming__soon-title movie__tab-title">Drama, Thriller</span>
+                        <h1 class="coming__soon-heading">Deepwater Horizon</h1>
+                        <div class="calendar">
+                            <div class="coming__soon-rating">
+                                <i class="fas fa-star star__icon"></i>
+                                <i class="fas fa-star star__icon"></i>
+                                <i class="fas fa-star star__icon"></i>
+                                <i class="fas fa-star star__icon"></i>
+                                <i class="fas fa-star star__icon"></i>
+                            </div>
+                            <i class="far fa-calendar-alt calendar__icon"></i>
+                            <span class="coming__soon-date">30 September, 2021</span>
+                        </div>
+                        <p class="comming__soon-description">A dramatization of the April 2010 disaster, when the offshore drilling rig Deepwater Horizon exploded and created the worst oil spill in U.S. history.</p>
+                        <a class="movie__tab-link coming__soon-link" href="">More info
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="col l-7 m-6 c-12">
+                        <div class="coming__soon-video">
+                            <a href="">
+                                <i class="fas fa-play movie__play-icon coming__soon-icon"></i>
+                                <img class="coming__soon-img" src="./assets/img/slide-1-video.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Coming Soon -->
+        <!-- Slider Coming Soon -->
+        <div class="coming__carousel">
+            <div class="grid wide">
+                <div class="coming__soon-container">
+                    <i class="fas fa-chevron-left btn__icon-prew "></i>
+                    <div class="row">
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity coming__carousel-opacity-1">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-10.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">Deepwater horizon</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-9.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">Too fast</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-11.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">The Hangover: Part III</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-12.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">Transformers: Age of Extinction</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-15.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">End of an empire</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-4 coming__carousel-opacity">
+                            <div class="coming__carousel-list">
+                                <a href="">
+                                    <img src="./assets/img/movie-14.jpg" alt="movie 10" class="coming__carousel-img">
+                                </a>
+                            </div>
+                            <div class="coming__carousel-title">
+                                <h3 class="coming__carousel-name">The comedian</h3>
+                                <span class="coming__carousel-date">07 September, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right btn__icon-next "></i>
+                </div>
+            </div>
+        </div>
+        <!-- End Slider Coming Soon -->
+        <!-- Contact -->
+        <div class="contact">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 contact__support-group">
+                        <span class="contact__support">Need help? Contact support me</span>
+                        <p class="contact__tell">089 665 0168</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class=" row footer__row">
+                    <div class="col l-3 m-3 c-12 footer__col">
+                        <h6 class="footer__heading">GET IN TOUCH</h6>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Give us feedback
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-3 m-3 c-12 footer__col">
+                        <h6 class="footer__heading">ABOUT MOVIE STAR</h6>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Find us
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Schedule
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    News
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-3 m-3 c-12 footer__col">
+                        <h6 class="footer__heading">LEGAL STUFF</h6>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Privacy policy
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    Cookie policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-3 m-3 c-12 footer__col">
+                        <h6 class="footer__heading">CONNECT WITH US</h6>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    <i class="fab fa-facebook-f footer__social-icon"></i> Facebook
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    <i class="fab fa-twitter footer__social-icon"></i> Twitter
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="">
+                                    <i class="fab fa-google-plus-g footer__social-icon"></i> Google +
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- copy right -->
+                <div class="copy__right">
+                    <p class="footer__text">2021 © Kevin Le /
+                        <a class="footer__text-link" href="">Web design by Kevin Le</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

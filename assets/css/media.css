@@ -1,0 +1,142 @@
+/* Tablet */
+
+@media (max-width: 1023px) {
+    .nav__bars-icon {
+        display: block;
+        top: 10px;
+        margin-top: -28px;
+        margin-right: 14px;
+        font-size: 2rem;
+    }
+    .navbar__mobile-list {
+        /* display: block; */
+    }
+    .header__group-phone {
+        font-size: 1.3rem;
+        margin-right: 26px;
+    }
+    .navbar_logo-img {
+        max-width: 150px;
+        margin-left: 20px;
+    }
+    .navbar__list {
+        display: none;
+    }
+    .slider__group {
+        padding: 0 20px;
+    }
+}
+
+
+/* tablet % mobile */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 800px;
+    }
+    .header__group-phone {
+        font-size: 1.4rem;
+    }
+    .navbar__list {
+        display: flex;
+    }
+    .navbar__item {
+        padding: 8px 14px;
+    }
+    .navbar__link {
+        font-size: 1.3rem;
+    }
+    .navbar__mobile-list {
+        display: none;
+    }
+    .nav__bars-icon {
+        display: none;
+    }
+    .slider__sub-heading {
+        line-height: 2.8rem;
+    }
+    /* Coming Soon */
+    .coming__soon-group {
+        padding: 0 14px;
+    }
+    .footer__row {
+        display: block;
+    }
+    .footer__col {
+        padding: 0 14px;
+        margin-bottom: 30px;
+    }
+    .footer__control {
+        padding: 0 px 14px;
+    }
+}
+
+@media (max-width: 739px) {
+    .slider {
+        min-height: 690px;
+    }
+    .slider__heading {
+        font-size: 4rem;
+    }
+    .slider__caption {
+        top: calc(100% - 45%);
+    }
+    .slider__sub-heading {
+        padding-right: 0px;
+        line-height: 2.6rem;
+    }
+    .dots__list {
+        top: 66px;
+    }
+    .heading line {
+        margin-left: 14px;
+    }
+    .screening__time-list {
+        display: block;
+        border-bottom: none;
+    }
+    .screening__time {
+        padding: 0;
+    }
+    .screening__time-item {
+        margin: 12px 26px;
+    }
+    .screening__time-link {
+        font-size: 1.8rem;
+    }
+    .line::after {
+        width: 4px;
+        height: 0;
+    }
+    .active::after {
+        height: 100%;
+        width: 4px;
+    }
+    .item__hover:hover::after {
+        height: 100%;
+        width: 4px;
+    }
+    .movie__group {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .movie__list {
+        padding: 14px 30px;
+    }
+    .coming__soon-h3 {
+        padding: 0px 14px;
+    }
+    .coming__soon-group {
+        padding: 0 14px;
+    }
+    .footer__row {
+        display: block;
+    }
+    .footer__col {
+        padding: 0 30px;
+        margin-bottom: 30px;
+    }
+    .footer__control {
+        padding: 0 px 14px;
+    }
+}
